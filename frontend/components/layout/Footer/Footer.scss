@@ -1,0 +1,37 @@
+.ftr{
+  border-top: 1px solid #ddd;
+  //padding-top: 40px;
+  //padding-bottom: 60px;
+  padding: 20px 0;
+  &__wrp{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+
+  &__cnt{}
+
+  &__cpy__rgt{}
+
+  &__cnt{}
+
+  &__lst{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__lst__itm{
+
+    a{
+      color: #333;
+      transition: all .3s ease-in-out;
+      &:hover{
+        color: var(--color-primary);
+      }
+    }
+  }
+
+
+}
